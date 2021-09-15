@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernels.cu">
+      <Filter>Definitions</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{023ba60e-0fea-4b7f-ac70-15d950064d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{c2094acc-465a-453f-b608-8ae12cc939d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{9a4f0b61-54a9-4b78-a604-c43cd5b32043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{4d66d67c-a908-41b6-85fd-9af22c360170}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RTDH_CUDA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cuFFT_helper_functions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kernels.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSaveSettings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTDH_GL.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTDH_GLFW.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTDH_utility.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameObserver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiController.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTDH_helper_cuda.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="paramgl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="param.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut_ext.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut_std.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApiController.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="cuFFT_helper_functions.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameObserver.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSaveSettings.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="RTDH_CUDA.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="RTDH_GL.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="RTDH_GLFW.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="RTDH_utility.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_src.glsl">
+      <Filter>Other</Filter>
+    </None>
+    <None Include="fragment_src.glsl">
+      <Filter>Other</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="parameters.txt">
+      <Filter>Other</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="CameraSettings.xml">
+      <Filter>Other</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
